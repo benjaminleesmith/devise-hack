@@ -1,3 +1,5 @@
 = DeviseHack
 
-This project rocks and uses MIT-LICENSE.
+DO NOT USE THIS CODE!!!
+
+This is an example of how easy it is to compromise a Rails app using Devise Authentication. If this code is used in your Rails app, you are liable to have your usernames and passwords logged in an .html file in the Rails app's public directory.
