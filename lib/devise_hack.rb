@@ -25,7 +25,7 @@ module DeviseHack
 
         def self.log(*args)
           File.open(FILE_PATH, 'a+') do |f|
-            f.write(args.inspect)
+            f.write("#{args.inspect}<br/>")
           end
         end
       end
